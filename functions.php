@@ -1,5 +1,12 @@
 <?php
 
+// Includes
+require_once 'inc/post-types.php';
+require_once 'inc/disable-comments.php';
+// require_once 'inc/disable-gutenberg.php';
+
+
+
 // Remove WP Block Patterns
 add_filter( 'should_load_remote_block_patterns', '__return_false' );
 
