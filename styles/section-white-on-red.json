@@ -1,8 +1,8 @@
 {
   "$schema": "https://schemas.wp.org/trunk/theme.json",
   "version": 3,
-  "title": "Primary",
-  "slug": "primary",
+  "title": "White on Red",
+  "slug": "white-on-red",
   "blockTypes": ["core/group"],
   "styles": {
     "color": {

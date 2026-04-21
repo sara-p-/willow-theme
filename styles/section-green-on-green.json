@@ -1,0 +1,13 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "title": "Green on Green",
+  "slug": "green-on-green",
+  "blockTypes": ["core/group"],
+  "styles": {
+    "color": {
+      "background": "var:preset|color|light-green",
+      "text": "var:preset|color|dark-green"
+    }
+  }
+}
