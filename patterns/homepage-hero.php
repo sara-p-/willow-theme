@@ -1,11 +1,11 @@
 <?php
 /**
- * Title: Hero Main
- * Slug: /hero-main
+ * Title: Homepage Hero
+ * Slug: /homepage-hero
  * Categories: heros
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Hero"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|160","bottom":"var:preset|spacing|160"}},"background":{"backgroundImage":{"url":"http://ollie-wp-course.local/wp-content/uploads/2026/04/willow-tree-bg.jpg","id":106,"source":"file","title":"willow-tree-bg"},"backgroundSize":"cover"},"dimensions":{"minHeight":"100%"}},"layout":{"type":"constrained","justifyContent":"center"}} -->
+<!-- wp:group {"metadata":{"name":"Homepage Hero","categories":["heros"],"patternName":"core/block/120"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|160","bottom":"var:preset|spacing|160"}},"background":{"backgroundImage":{"url":"http://ollie-wp-course.local/wp-content/uploads/2026/04/willow-tree-bg.jpg","id":106,"source":"file","title":"willow-tree-bg"},"backgroundSize":"cover"},"dimensions":{"minHeight":"100%"}},"layout":{"type":"constrained","justifyContent":"center"}} -->
 <div class="wp-block-group" style="min-height:100%;padding-top:var(--wp--preset--spacing--160);padding-bottom:var(--wp--preset--spacing--160)"><!-- wp:group {"metadata":{"name":"Wrapper"},"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide"><!-- wp:group {"metadata":{"name":"Content"},"style":{"spacing":{"blockGap":"var:preset|spacing|16"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
 <div class="wp-block-group"><!-- wp:group {"metadata":{"name":"Subheading"},"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
@@ -26,8 +26,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:buttons {"style":{"spacing":{"blockGap":{"top":"0","left":"var:preset|spacing|16"},"margin":{"top":"0","bottom":"var:preset|spacing|32"}}}} -->
-<div class="wp-block-buttons" style="margin-top:0;margin-bottom:var(--wp--preset--spacing--32)"><!-- wp:button -->
+<!-- wp:buttons {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|16","left":"var:preset|spacing|16"},"margin":{"top":"0","bottom":"var:preset|spacing|16"}}}} -->
+<div class="wp-block-buttons" style="margin-top:0;margin-bottom:var(--wp--preset--spacing--16)"><!-- wp:button -->
 <div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Get instant quote</a></div>
 <!-- /wp:button -->
 
