@@ -5,7 +5,7 @@
  * Categories: Pricing, Sliders
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Section"},"className":"is-style-red-on-light-pink","style":{"spacing":{"padding":{"top":"var:preset|spacing|160","bottom":"var:preset|spacing|160"}}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"metadata":{"name":"Pricing Slider"},"className":"is-style-red-on-light-pink","style":{"spacing":{"padding":{"top":"var:preset|spacing|160","bottom":"var:preset|spacing|160"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group is-style-red-on-light-pink"
   style="padding-top:var(--wp--preset--spacing--160);padding-bottom:var(--wp--preset--spacing--160)">
   <!-- wp:group {"metadata":{"name":"Text Wrapper"},"align":"wide","layout":{"type":"default"}} -->

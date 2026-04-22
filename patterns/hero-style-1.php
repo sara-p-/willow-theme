@@ -5,7 +5,7 @@
  * Categories: heros
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Homepage Hero","categories":["heros"],"patternName":"core/block/120"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|160","bottom":"var:preset|spacing|160"}},"background":{"backgroundImage":{"url":"http://ollie-wp-course.local/wp-content/uploads/2026/04/willow-tree-bg.jpg","id":106,"source":"file","title":"willow-tree-bg"},"backgroundSize":"cover"},"dimensions":{"minHeight":"100vh"}},"layout":{"type":"constrained","justifyContent":"center"}} -->
+<!-- wp:group {"metadata":{"name":"Hero Style 1","categories":["heros"],"patternName":"core/block/120"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|160","bottom":"var:preset|spacing|160"}},"background":{"backgroundImage":{"url":"http://ollie-wp-course.local/wp-content/uploads/2026/04/willow-tree-bg.jpg","id":106,"source":"file","title":"willow-tree-bg"},"backgroundSize":"cover"},"dimensions":{"minHeight":"100vh"}},"layout":{"type":"constrained","justifyContent":"center"}} -->
 <div class="wp-block-group"
   style="min-height:100vh;padding-top:var(--wp--preset--spacing--160);padding-bottom:var(--wp--preset--spacing--160)">
   <!-- wp:group {"metadata":{"name":"Wrapper"},"align":"wide","layout":{"type":"default"}} -->
