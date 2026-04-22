@@ -8,16 +8,16 @@ require_once 'inc/disable-comments.php';
 
 
 // Remove WP Block Patterns
-add_filter( 'should_load_remote_block_patterns', '__return_false' );
+// add_filter( 'should_load_remote_block_patterns', '__return_false' );
 
 
 function prefix_remove_core_patterns() {
     remove_theme_support( 'core-block-patterns' );
 }
-add_action( 'after_setup_theme', 'prefix_remove_core_patterns' );
+// add_action( 'after_setup_theme', 'prefix_remove_core_patterns' );
 
 // Removing Block Plugin Directory thing
-remove_action('enqueue_block_editor_assets', 'wp_enqueue_editor_block_directory_assets');
+// remove_action('enqueue_block_editor_assets', 'wp_enqueue_editor_block_directory_assets');
 
 // Removing OpenVerse Media Library
 add_filter( 'block_editor_settings_all', function( $settings ) {
@@ -41,7 +41,7 @@ function willow_deny_list_blocks() {
 
   // List the blocks you don't want
   unset($blocks['core/archives']);
-  unset($blocks['core/gallery']);
+  // unset($blocks['core/gallery']);
 
   return array_keys($blocks);
 }

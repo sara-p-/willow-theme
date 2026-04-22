@@ -8,3 +8,45 @@
   Description:  A beautiful block theme for Willow.
 
 */
+
+.absolute-bottom {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  right: 0;
+}
+
+.absolute-top {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  right: 0;
+}
+
+.relative-position {
+  position: relative;
+}
+
+.pricing-slider .swiper {
+  overflow: visible;
+}
+
+.pricing-slider .cb-button-prev {
+  top: 104%;
+  left: 46.5%;
+  color: #67201e;
+}
+
+.pricing-slider .cb-button-next {
+  top: 104%;
+  right: 46.5%;
+  color: #67201e;
+}
+
+.pricing-slider .cb-pagination .swiper-pagination-bullet {
+  background: #67201e;
+}
+
+.swiper-wrapper {
+  align-items: center;
+}
