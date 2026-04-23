@@ -1,0 +1,13 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "title": "Light Green on Green",
+  "slug": "light-green-on-green",
+  "blockTypes": ["core/group"],
+  "styles": {
+    "color": {
+      "background": "var:preset|color|dark-green",
+      "text": "var:preset|color|light-green"
+    }
+  }
+}

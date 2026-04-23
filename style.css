@@ -9,6 +9,20 @@
 
 */
 
+/* Header Fix */
+header:has(> .is-position-sticky) {
+  position: sticky;
+  top: calc(0px + var(--wp-admin--admin-bar--height, 0px));
+  z-index: 100;
+}
+
+@media (max-width: 600px) {
+  header:has(> .is-position-sticky) {
+    top: 0;
+  }
+}
+
+/* Pricing Card Buttons */
 .absolute-bottom {
   position: absolute;
   bottom: -20px;
@@ -27,6 +41,7 @@
   position: relative;
 }
 
+/* Pricing Slider */
 .pricing-slider .swiper {
   overflow: visible;
 }
@@ -49,4 +64,71 @@
 
 .swiper-wrapper {
   align-items: center;
+}
+
+/* Process list */
+.process-list-item-row.is-layout-flex {
+  align-items: flex-start;
+}
+
+/* FAQ Accordion */
+.faq-accordion-header button .wp-block-accordion-heading__toggle-title {
+  order: 2;
+}
+
+.wp-block-accordion-heading__toggle:hover
+  .wp-block-accordion-heading__toggle-title {
+  text-decoration: none;
+}
+
+.faq-accordion-header button .wp-block-accordion-heading__toggle-icon {
+  order: 1;
+  margin-right: 1rem;
+  transform: scale(2);
+}
+
+.wp-block-accordion-item.is-open
+  > .wp-block-accordion-heading
+  .wp-block-accordion-heading__toggle-icon {
+  transform: scale(2) rotate(45deg);
+}
+
+.faq-accordion-panel {
+  padding-left: 4rem !important;
+}
+
+/* Testimonials Slider */
+.wp-block-cb-carousel-v2.testimonials-slider
+  .cb-pagination.swiper-pagination-horizontal.swiper-pagination-bullets
+  .cb-pagination-bullet {
+  background: #ceda9d;
+  transform: scale(2);
+  margin: 0 11px;
+}
+
+.wp-block-cb-carousel-v2.testimonials-slider
+  .cb-pagination.swiper-pagination-horizontal.swiper-pagination-bullets
+  .cb-pagination-bullet.swiper-pagination-bullet-active {
+  transform: scale(2.5);
+}
+
+.wp-block-cb-carousel-v2.testimonials-slider .cb-button-next:after,
+.wp-block-cb-carousel-v2.testimonials-slider .cb-button-prev:after {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+/* .testimonials-slider .cb-button-next.swiper-button-next {
+  top: 108.5%;
+  right: 47%;
+}
+
+.testimonials-slider .cb-button-prev.swiper-button-prev {
+  top: 108.5%;
+  left: 47%;
+} */
+
+.testimonials-location-text {
+  font-size: clamp(1rem, calc(0.833rem + 0.556vw), 1.25rem);
+  font-style: italic;
 }
