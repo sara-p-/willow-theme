@@ -49,9 +49,50 @@ footer .wp-block-buttons {
   display: none;
 }
 
+footer .footer-menu-heading {
+  font-size: clamp(1rem, calc(0.818rem + 0.909vw), 1.5rem);
+}
+
+footer .footer-nav-list a {
+  text-decoration: none;
+}
+
+footer .mobile-social-list {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  footer nav.wp-block-navigation {
+    border-left: 1px solid var(--wp--preset--color--red);
+    padding-left: 1.5rem;
+  }
+
+  footer nav ul.wp-block-navigation__container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  footer .mobile-social-list {
+    display: inherit;
+  }
+
+  footer .footer-social-group {
+    display: none;
+  }
+
+  footer .footer-bottom-nav {
+    flex-direction: column;
+  }
+
+  footer .footer-copyright {
+    padding-top: 1rem;
+    border-top: 1px solid var(--wp--preset--color--red);
+  }
+}
+
 @media screen and (min-width: 782px) {
   footer .wp-block-navigation__container {
-    padding-top: 4px;
+    padding-top: 6px;
     border-top: 1px solid var(--wp--preset--color--red);
   }
 }
