@@ -1,0 +1,179 @@
+/* Header Fix */
+header:has(> .is-position-sticky) {
+  position: sticky;
+  top: calc(0px + var(--wp-admin--admin-bar--height, 0px));
+  z-index: 100;
+}
+
+@media (max-width: 600px) {
+  header:has(> .is-position-sticky) {
+    top: 0;
+  }
+}
+
+/* Navigation */
+@media (min-width: 782px) {
+  header .wp-block-navigation-item {
+    padding: 4px 0;
+  }
+
+  header li.wp-block-navigation-link:nth-last-child(2) {
+    border-right: 1px solid;
+    padding-right: 12.5px;
+  }
+
+  header li.wp-block-navigation-link:last-of-type {
+    margin-left: -12.5px;
+  }
+}
+
+/* Navigation Media Breakpoint */
+@media screen and (max-width: 782px) {
+  /* Show the hamburger icon */
+  .wp-block-navigation__responsive-container-open {
+    display: block !important;
+  }
+  /* Hide the desktop navigation links */
+  .wp-block-navigation__responsive-container:not(.is-menu-open.has-modal-open) {
+    display: none !important;
+  }
+  /* Display the buttons in a column rather than in a row */
+  .wp-block-navigation__responsive-container-content .wp-block-buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+/* Footer */
+footer .wp-block-buttons {
+  display: none;
+}
+
+@media screen and (min-width: 782px) {
+  footer .wp-block-navigation__container {
+    padding-top: 4px;
+    border-top: 1px solid var(--wp--preset--color--red);
+  }
+}
+
+/* Hero Style 1 */
+.hero-style-1 {
+  min-height: calc(100vh - 126px) !important;
+}
+
+@media screen and (max-width: 782px) {
+  .hero-style-1 {
+    min-height: auto !important;
+  }
+}
+
+/* Pricing Card Buttons */
+.absolute-bottom {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  right: 0;
+}
+
+.absolute-top {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  right: 0;
+}
+
+.relative-position {
+  position: relative;
+}
+
+/* Pricing Slider */
+.pricing-slider .swiper {
+  overflow: visible;
+}
+
+.pricing-slider .cb-button-prev {
+  top: 104%;
+  left: 46.5%;
+  color: #67201e;
+}
+
+.pricing-slider .cb-button-next {
+  top: 104%;
+  right: 46.5%;
+  color: #67201e;
+}
+
+.pricing-slider .cb-pagination .swiper-pagination-bullet {
+  background: #67201e;
+}
+
+.swiper-wrapper {
+  align-items: center;
+}
+
+/* Process list */
+.process-list-item-row.is-layout-flex {
+  align-items: flex-start;
+}
+
+/* FAQ Accordion */
+.faq-accordion-header button .wp-block-accordion-heading__toggle-title {
+  order: 2;
+}
+
+.wp-block-accordion-heading__toggle:hover
+  .wp-block-accordion-heading__toggle-title {
+  text-decoration: none;
+}
+
+.faq-accordion-header button .wp-block-accordion-heading__toggle-icon {
+  order: 1;
+  margin-right: 1rem;
+  transform: scale(2);
+}
+
+.wp-block-accordion-item.is-open
+  > .wp-block-accordion-heading
+  .wp-block-accordion-heading__toggle-icon {
+  transform: scale(2) rotate(45deg);
+}
+
+.faq-accordion-panel {
+  padding-left: 4rem !important;
+}
+
+/* Testimonials Slider */
+.wp-block-cb-carousel-v2.testimonials-slider
+  .cb-pagination.swiper-pagination-horizontal.swiper-pagination-bullets
+  .cb-pagination-bullet {
+  background: #ceda9d;
+  transform: scale(2);
+  margin: 0 11px;
+}
+
+.wp-block-cb-carousel-v2.testimonials-slider
+  .cb-pagination.swiper-pagination-horizontal.swiper-pagination-bullets
+  .cb-pagination-bullet.swiper-pagination-bullet-active {
+  transform: scale(2.5);
+}
+
+.wp-block-cb-carousel-v2.testimonials-slider .cb-button-next:after,
+.wp-block-cb-carousel-v2.testimonials-slider .cb-button-prev:after {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+/* .testimonials-slider .cb-button-next.swiper-button-next {
+  top: 108.5%;
+  right: 47%;
+}
+
+.testimonials-slider .cb-button-prev.swiper-button-prev {
+  top: 108.5%;
+  left: 47%;
+} */
+
+.testimonials-location-text {
+  font-size: clamp(1rem, calc(0.833rem + 0.556vw), 1.25rem);
+  font-style: italic;
+}
