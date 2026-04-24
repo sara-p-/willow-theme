@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "title": "Small Default",
+  "slug": "small-default",
+  "blockTypes": ["core/button"],
+  "styles": {
+    "color": {
+      "background": "var:preset|color|pink",
+      "text": "var:preset|color|red"
+    },
+    ":hover": {
+      "color": {
+        "background": "var:preset|color|red",
+        "text": "var:preset|color|pink"
+      }
+    },
+    "border": {
+      "radius": "30px",
+      "style": "none",
+      "width": "0px"
+    },
+    "spacing": {
+      "padding": {
+        "bottom": "4px",
+        "left": "2rem",
+        "right": "2rem",
+        "top": "4px"
+      }
+    },
+    "typography": {
+      "fontSize": "18px",
+      "fontWeight": "600"
+    }
+  }
+}

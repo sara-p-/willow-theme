@@ -22,6 +22,50 @@ header:has(> .is-position-sticky) {
   }
 }
 
+/* Navigation */
+@media (min-width: 782px) {
+  .wp-block-navigation-item {
+    padding: 4px 0;
+  }
+
+  .nav-link.locations {
+    border-right: 1px solid;
+    padding-right: 12.5px;
+  }
+
+  .nav-link.obits {
+    margin-left: -12.5px;
+  }
+}
+
+/* Navigation Media Breakpoint */
+@media screen and (max-width: 782px) {
+  /* Show the hamburger icon */
+  .wp-block-navigation__responsive-container-open {
+    display: block !important;
+  }
+  /* Hide the desktop navigation links */
+  .wp-block-navigation__responsive-container:not(.is-menu-open.has-modal-open) {
+    display: none !important;
+  }
+  /* Display the buttons in a column rather than in a row */
+  .wp-block-navigation__responsive-container-content .wp-block-buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+/* Hero Style 1 */
+.hero-style-1 {
+  min-height: calc(100vh - 126px) !important;
+}
+
+@media screen and (max-width: 782px) {
+  .hero-style-1 {
+    min-height: auto !important;
+  }
+}
+
 /* Pricing Card Buttons */
 .absolute-bottom {
   position: absolute;
