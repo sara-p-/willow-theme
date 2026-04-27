@@ -218,3 +218,27 @@ footer .mobile-social-list {
   font-size: clamp(1rem, calc(0.833rem + 0.556vw), 1.25rem);
   font-style: italic;
 }
+
+/* Callout - Style 3 */
+
+.callout-image-desktop {
+  display: none;
+}
+
+.callout-image-mobile {
+  display: block;
+}
+
+@media screen and (min-width: 782px) {
+  .callout-image-desktop {
+    display: block;
+  }
+  .callout-image-mobile {
+    display: none;
+  }
+}
+
+/* General */
+.font-size-22 {
+  font-size: clamp(1rem, calc(0.864rem + 0.682vw), 1.38rem);
+}
