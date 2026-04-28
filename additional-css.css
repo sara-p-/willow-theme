@@ -134,18 +134,29 @@ footer .mobile-social-list {
 
 .pricing-slider .cb-button-prev {
   top: 104%;
-  left: 46.5%;
+  left: 44.5%;
   color: #67201e;
 }
 
 .pricing-slider .cb-button-next {
   top: 104%;
-  right: 46.5%;
+  right: 44.5%;
   color: #67201e;
 }
 
-.pricing-slider .cb-pagination .swiper-pagination-bullet {
+.wp-block-cb-carousel-v2.pricing-slider
+  .cb-pagination.swiper-pagination-horizontal.swiper-pagination-bullets
+  .cb-pagination-bullet {
   background: #67201e;
+  transform: scale(2);
+  margin: 0 11px;
+}
+
+.wp-block-cb-carousel-v2.pricing-slider
+  .cb-pagination.swiper-pagination-horizontal.swiper-pagination-bullets
+  .cb-pagination-bullet.swiper-pagination-bullet-active {
+  background: #67201e;
+  transform: scale(2.5);
 }
 
 .swiper-wrapper {
@@ -171,6 +182,10 @@ footer .mobile-social-list {
   order: 1;
   margin-right: 1rem;
   transform: scale(2);
+}
+
+.faq-accordion-header button.wp-block-accordion-heading__toggle {
+  align-items: flex-start;
 }
 
 .wp-block-accordion-item.is-open
