@@ -6,7 +6,7 @@
   "blockTypes": ["core/button"],
   "styles": {
     "color": {
-      "background": "var:preset|color|white",
+      "background": "transparent",
       "text": "var:preset|color|red"
     },
     "border": {
@@ -17,8 +17,8 @@
     "spacing": {
       "padding": {
         "bottom": "4px",
-        "left": "2rem",
-        "right": "2rem",
+        "left": "4rem",
+        "right": "4rem",
         "top": "4px"
       }
     }
