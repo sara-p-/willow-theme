@@ -216,7 +216,7 @@ footer .mobile-social-list {
 .wp-block-cb-carousel-v2.testimonials-slider .cb-button-next:after,
 .wp-block-cb-carousel-v2.testimonials-slider .cb-button-prev:after {
   font-size: 14px;
-  color: #ffffff;
+  color: var(--wp--preset--color--white);
 }
 
 /* .testimonials-slider .cb-button-next.swiper-button-next {
@@ -251,6 +251,48 @@ footer .mobile-social-list {
   .callout-image-mobile {
     display: none;
   }
+}
+
+/* WP Store Locator */
+#wpsl-result-list {
+  display: none !important;
+}
+
+#wpsl-gmap,
+.wpsl-gmap-canvas {
+  width: 100% !important;
+  border-radius: 40px;
+}
+
+.wpsl-search {
+  display: none !important;
+}
+
+.gm-style-iw {
+  color: var(--wp--preset--color--red) !important;
+  overflow: visible !important;
+  padding: 10px !important;
+  line-height: 1.2;
+}
+
+.gm-style-iw-chr {
+  height: 0px;
+}
+
+button.gm-ui-hover-effect {
+  position: absolute;
+  top: -42px;
+  right: -48px;
+}
+
+.wpsl-info-window {
+  font-family: var(--wp--preset--font-family--ar-one-sans) !important;
+}
+
+.wpsl-info-window a {
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  line-height: 1.5 !important;
 }
 
 /* General */
