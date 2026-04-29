@@ -1,11 +1,11 @@
 <?php
 /**
- * Title: Testimonials Slider
- * Slug: /testimonials-slider
+ * Title: Testimonials Section
+ * Slug: /testimonials-section
  * Categories: Testimonials
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Testimonials Slider Section"},"className":"is-style-light-green-on-green","style":{"spacing":{"padding":{"top":"var:preset|spacing|120","bottom":"var:preset|spacing|160","right":"var:preset|spacing|60","left":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"metadata":{"name":"Testimonials Section"},"className":"is-style-light-green-on-green","style":{"spacing":{"padding":{"top":"var:preset|spacing|120","bottom":"var:preset|spacing|160","right":"var:preset|spacing|60","left":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group is-style-light-green-on-green"
   style="padding-top:var(--wp--preset--spacing--120);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--160);padding-left:var(--wp--preset--spacing--60)">
   <!-- wp:group {"metadata":{"name":"Wrapper"},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|48"}},"layout":{"type":"default"}} -->
@@ -28,32 +28,27 @@
         <div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--16)">
           <!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
           <figure class="wp-block-image size-full"><img
-              src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star.png" alt="" class="" />
-          </figure>
+              src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star.png" alt="" /></figure>
           <!-- /wp:image -->
 
           <!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
           <figure class="wp-block-image size-full"><img
-              src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star.png" alt="" class="" />
-          </figure>
+              src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star.png" alt="" /></figure>
           <!-- /wp:image -->
 
           <!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
           <figure class="wp-block-image size-full"><img
-              src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star.png" alt="" class="" />
-          </figure>
+              src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star.png" alt="" /></figure>
           <!-- /wp:image -->
 
           <!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
           <figure class="wp-block-image size-full"><img
-              src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star.png" alt="" class="" />
-          </figure>
+              src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star.png" alt="" /></figure>
           <!-- /wp:image -->
 
           <!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
           <figure class="wp-block-image size-full"><img
-              src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star.png" alt="" class="" />
-          </figure>
+              src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star.png" alt="" /></figure>
           <!-- /wp:image -->
         </div>
         <!-- /wp:group -->
@@ -69,54 +64,47 @@
 
     <!-- wp:group {"metadata":{"name":"Slider"},"layout":{"type":"default"}} -->
     <div class="wp-block-group">
-      <!-- wp:cb/carousel-v2 {"className":"testimonials-slider"} -->
-      <div class="wp-block-cb-carousel-v2 cb-carousel-block testimonials-slider" data-cb-slides-per-view="1"
-        data-cb-slides-per-group="1" data-cb-space-between="27" data-cb-speed="300" data-cb-navigation="true"
-        data-cb-pagination="true"
+      <!-- wp:cb/carousel-v2 {"spaceBetween":27} -->
+      <div class="wp-block-cb-carousel-v2 cb-carousel-block" data-cb-slides-per-view="1" data-cb-slides-per-group="1"
+        data-cb-space-between="27" data-cb-speed="300" data-cb-navigation="true" data-cb-pagination="true"
         data-cb-breakpoints="{&quot;768&quot;:{&quot;slidesPerView&quot;:3,&quot;slidesPerGroup&quot;:1}}">
         <div class="swiper">
           <div class="cb-wrapper swiper-wrapper">
             <!-- wp:cb/slide-v2 -->
             <div class="wp-block-cb-slide-v2 cb-slide swiper-slide">
-              <!-- wp:block {"ref":450} /-->
-            </div>
-            <!-- /wp:cb/slide-v2 -->
-
-            <!-- wp:cb/slide-v2 -->
-            <div class="wp-block-cb-slide-v2 cb-slide swiper-slide">
-              <!-- wp:group {"metadata":{"name":"Single Testimonial"},"className":"is-style-green-on-white","style":{"border":{"radius":{"topLeft":"40px","topRight":"40px","bottomLeft":"40px","bottomRight":"40px"}},"spacing":{"padding":{"top":"var:preset|spacing|32","bottom":"var:preset|spacing|32","left":"var:preset|spacing|32","right":"var:preset|spacing|32"},"blockGap":"var:preset|spacing|32"}},"backgroundColor":"white","layout":{"type":"default"}} -->
+              <!-- wp:group {"metadata":{"name":"Single Testimonial","categories":["Testimonials"],"patternName":"/single-testimonial"},"className":"is-style-green-on-white","style":{"border":{"radius":{"topLeft":"40px","topRight":"40px","bottomLeft":"40px","bottomRight":"40px"}},"spacing":{"padding":{"top":"var:preset|spacing|32","bottom":"var:preset|spacing|32","left":"var:preset|spacing|32","right":"var:preset|spacing|32"},"blockGap":"var:preset|spacing|32"}},"backgroundColor":"white","layout":{"type":"default"}} -->
               <div class="wp-block-group is-style-green-on-white has-white-background-color has-background"
                 style="border-top-left-radius:40px;border-top-right-radius:40px;border-bottom-left-radius:40px;border-bottom-right-radius:40px;padding-top:var(--wp--preset--spacing--32);padding-right:var(--wp--preset--spacing--32);padding-bottom:var(--wp--preset--spacing--32);padding-left:var(--wp--preset--spacing--32)">
                 <!-- wp:group {"metadata":{"name":"Stars"},"style":{"spacing":{"blockGap":"var:preset|spacing|16"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
                 <div class="wp-block-group">
                   <!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
                   <figure class="wp-block-image size-full"><img
-                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt=""
-                      class="" /></figure>
+                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt="" />
+                  </figure>
                   <!-- /wp:image -->
 
                   <!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
                   <figure class="wp-block-image size-full"><img
-                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt=""
-                      class="" /></figure>
+                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt="" />
+                  </figure>
                   <!-- /wp:image -->
 
                   <!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
                   <figure class="wp-block-image size-full"><img
-                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt=""
-                      class="" /></figure>
+                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt="" />
+                  </figure>
                   <!-- /wp:image -->
 
                   <!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
                   <figure class="wp-block-image size-full"><img
-                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt=""
-                      class="" /></figure>
+                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt="" />
+                  </figure>
                   <!-- /wp:image -->
 
                   <!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
                   <figure class="wp-block-image size-full"><img
-                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt=""
-                      class="" /></figure>
+                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt="" />
+                  </figure>
                   <!-- /wp:image -->
                 </div>
                 <!-- /wp:group -->
@@ -144,39 +132,39 @@
 
             <!-- wp:cb/slide-v2 -->
             <div class="wp-block-cb-slide-v2 cb-slide swiper-slide">
-              <!-- wp:group {"metadata":{"name":"Single Testimonial"},"className":"is-style-green-on-white","style":{"border":{"radius":{"topLeft":"40px","topRight":"40px","bottomLeft":"40px","bottomRight":"40px"}},"spacing":{"padding":{"top":"var:preset|spacing|32","bottom":"var:preset|spacing|32","left":"var:preset|spacing|32","right":"var:preset|spacing|32"},"blockGap":"var:preset|spacing|32"}},"backgroundColor":"white","layout":{"type":"default"}} -->
+              <!-- wp:group {"metadata":{"name":"Single Testimonial","categories":["Testimonials"],"patternName":"/single-testimonial"},"className":"is-style-green-on-white","style":{"border":{"radius":{"topLeft":"40px","topRight":"40px","bottomLeft":"40px","bottomRight":"40px"}},"spacing":{"padding":{"top":"var:preset|spacing|32","bottom":"var:preset|spacing|32","left":"var:preset|spacing|32","right":"var:preset|spacing|32"},"blockGap":"var:preset|spacing|32"}},"backgroundColor":"white","layout":{"type":"default"}} -->
               <div class="wp-block-group is-style-green-on-white has-white-background-color has-background"
                 style="border-top-left-radius:40px;border-top-right-radius:40px;border-bottom-left-radius:40px;border-bottom-right-radius:40px;padding-top:var(--wp--preset--spacing--32);padding-right:var(--wp--preset--spacing--32);padding-bottom:var(--wp--preset--spacing--32);padding-left:var(--wp--preset--spacing--32)">
                 <!-- wp:group {"metadata":{"name":"Stars"},"style":{"spacing":{"blockGap":"var:preset|spacing|16"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
                 <div class="wp-block-group">
                   <!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
                   <figure class="wp-block-image size-full"><img
-                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt=""
-                      class="" /></figure>
+                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt="" />
+                  </figure>
                   <!-- /wp:image -->
 
                   <!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
                   <figure class="wp-block-image size-full"><img
-                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt=""
-                      class="" /></figure>
+                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt="" />
+                  </figure>
                   <!-- /wp:image -->
 
                   <!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
                   <figure class="wp-block-image size-full"><img
-                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt=""
-                      class="" /></figure>
+                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt="" />
+                  </figure>
                   <!-- /wp:image -->
 
                   <!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
                   <figure class="wp-block-image size-full"><img
-                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt=""
-                      class="" /></figure>
+                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt="" />
+                  </figure>
                   <!-- /wp:image -->
 
                   <!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
                   <figure class="wp-block-image size-full"><img
-                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt=""
-                      class="" /></figure>
+                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt="" />
+                  </figure>
                   <!-- /wp:image -->
                 </div>
                 <!-- /wp:group -->
@@ -204,39 +192,99 @@
 
             <!-- wp:cb/slide-v2 -->
             <div class="wp-block-cb-slide-v2 cb-slide swiper-slide">
-              <!-- wp:group {"metadata":{"name":"Single Testimonial"},"className":"is-style-green-on-white","style":{"border":{"radius":{"topLeft":"40px","topRight":"40px","bottomLeft":"40px","bottomRight":"40px"}},"spacing":{"padding":{"top":"var:preset|spacing|32","bottom":"var:preset|spacing|32","left":"var:preset|spacing|32","right":"var:preset|spacing|32"},"blockGap":"var:preset|spacing|32"}},"backgroundColor":"white","layout":{"type":"default"}} -->
+              <!-- wp:group {"metadata":{"name":"Single Testimonial","categories":["Testimonials"],"patternName":"/single-testimonial"},"className":"is-style-green-on-white","style":{"border":{"radius":{"topLeft":"40px","topRight":"40px","bottomLeft":"40px","bottomRight":"40px"}},"spacing":{"padding":{"top":"var:preset|spacing|32","bottom":"var:preset|spacing|32","left":"var:preset|spacing|32","right":"var:preset|spacing|32"},"blockGap":"var:preset|spacing|32"}},"backgroundColor":"white","layout":{"type":"default"}} -->
               <div class="wp-block-group is-style-green-on-white has-white-background-color has-background"
                 style="border-top-left-radius:40px;border-top-right-radius:40px;border-bottom-left-radius:40px;border-bottom-right-radius:40px;padding-top:var(--wp--preset--spacing--32);padding-right:var(--wp--preset--spacing--32);padding-bottom:var(--wp--preset--spacing--32);padding-left:var(--wp--preset--spacing--32)">
                 <!-- wp:group {"metadata":{"name":"Stars"},"style":{"spacing":{"blockGap":"var:preset|spacing|16"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
                 <div class="wp-block-group">
                   <!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
                   <figure class="wp-block-image size-full"><img
-                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt=""
-                      class="" /></figure>
+                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt="" />
+                  </figure>
                   <!-- /wp:image -->
 
                   <!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
                   <figure class="wp-block-image size-full"><img
-                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt=""
-                      class="" /></figure>
+                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt="" />
+                  </figure>
                   <!-- /wp:image -->
 
                   <!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
                   <figure class="wp-block-image size-full"><img
-                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt=""
-                      class="" /></figure>
+                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt="" />
+                  </figure>
                   <!-- /wp:image -->
 
                   <!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
                   <figure class="wp-block-image size-full"><img
-                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt=""
-                      class="" /></figure>
+                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt="" />
+                  </figure>
                   <!-- /wp:image -->
 
                   <!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
                   <figure class="wp-block-image size-full"><img
-                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt=""
-                      class="" /></figure>
+                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt="" />
+                  </figure>
+                  <!-- /wp:image -->
+                </div>
+                <!-- /wp:group -->
+
+                <!-- wp:paragraph {"metadata":{"name":"Text"}} -->
+                <p>"Heritage, John and the team were incredibly kind and thorough during a very difficult time for our
+                  family. They made everything simple for us and we can't thank (and recommend) them enough!"</p>
+                <!-- /wp:paragraph -->
+
+                <!-- wp:group {"metadata":{"name":"Citation"},"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
+                <div class="wp-block-group">
+                  <!-- wp:heading {"level":5,"metadata":{"name":"Name"}} -->
+                  <h5 class="wp-block-heading">Gretchen Farrell</h5>
+                  <!-- /wp:heading -->
+
+                  <!-- wp:paragraph {"metadata":{"name":"Location"},"className":"testimonials-location-text"} -->
+                  <p class="testimonials-location-text">Louisville</p>
+                  <!-- /wp:paragraph -->
+                </div>
+                <!-- /wp:group -->
+              </div>
+              <!-- /wp:group -->
+            </div>
+            <!-- /wp:cb/slide-v2 -->
+
+            <!-- wp:cb/slide-v2 -->
+            <div class="wp-block-cb-slide-v2 cb-slide swiper-slide">
+              <!-- wp:group {"metadata":{"name":"Single Testimonial","categories":["Testimonials"],"patternName":"/single-testimonial"},"className":"is-style-green-on-white","style":{"border":{"radius":{"topLeft":"40px","topRight":"40px","bottomLeft":"40px","bottomRight":"40px"}},"spacing":{"padding":{"top":"var:preset|spacing|32","bottom":"var:preset|spacing|32","left":"var:preset|spacing|32","right":"var:preset|spacing|32"},"blockGap":"var:preset|spacing|32"}},"backgroundColor":"white","layout":{"type":"default"}} -->
+              <div class="wp-block-group is-style-green-on-white has-white-background-color has-background"
+                style="border-top-left-radius:40px;border-top-right-radius:40px;border-bottom-left-radius:40px;border-bottom-right-radius:40px;padding-top:var(--wp--preset--spacing--32);padding-right:var(--wp--preset--spacing--32);padding-bottom:var(--wp--preset--spacing--32);padding-left:var(--wp--preset--spacing--32)">
+                <!-- wp:group {"metadata":{"name":"Stars"},"style":{"spacing":{"blockGap":"var:preset|spacing|16"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+                <div class="wp-block-group">
+                  <!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
+                  <figure class="wp-block-image size-full"><img
+                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt="" />
+                  </figure>
+                  <!-- /wp:image -->
+
+                  <!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
+                  <figure class="wp-block-image size-full"><img
+                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt="" />
+                  </figure>
+                  <!-- /wp:image -->
+
+                  <!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
+                  <figure class="wp-block-image size-full"><img
+                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt="" />
+                  </figure>
+                  <!-- /wp:image -->
+
+                  <!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
+                  <figure class="wp-block-image size-full"><img
+                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt="" />
+                  </figure>
+                  <!-- /wp:image -->
+
+                  <!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
+                  <figure class="wp-block-image size-full"><img
+                      src="http://ollie-wp-course.local/wp-content/uploads/2026/04/icon-single-star-1.png" alt="" />
+                  </figure>
                   <!-- /wp:image -->
                 </div>
                 <!-- /wp:group -->
