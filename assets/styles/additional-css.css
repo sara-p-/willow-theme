@@ -254,9 +254,9 @@ footer .mobile-social-list {
 }
 
 /* WP Store Locator */
-#wpsl-result-list {
+/* #wpsl-result-list {
   display: none !important;
-}
+} */
 
 #wpsl-gmap,
 .wpsl-gmap-canvas {
@@ -264,8 +264,79 @@ footer .mobile-social-list {
   border-radius: 40px;
 }
 
-.wpsl-search {
-  display: none !important;
+.wpsl-search.willow-location-search {
+  background: transparent;
+  /* display: inline-block; */
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 2rem;
+}
+
+.willow-location-search #wpsl-search-wrap {
+  float: none;
+}
+
+.wpsl-search.willow-location-search #wpsl-search-wrap form {
+  background: var(--wp--preset--color--white);
+  border-radius: 30px;
+  border: 1px solid var(--wp--preset--color--pink);
+  display: flex;
+  line-height: 1;
+}
+
+.wpsl-search.willow-location-search #wpsl-search-wrap form div,
+.willow-location-search #wpsl-search-btn {
+  float: none;
+  display: flex;
+}
+
+.willow-location-search #wpsl-search-wrap .wpsl-input {
+  margin: 0;
+  flex: 1;
+}
+
+.willow-location-search #wpsl-search-wrap .wpsl-input input#wpsl-search-input {
+  display: block;
+  border-radius: 0px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background: var(--wp--preset--color--white);
+  border: none;
+  flex: 1;
+  font-size: 18px;
+}
+
+.willow-location-search
+  #wpsl-search-wrap
+  .wpsl-input
+  input#wpsl-search-input::placeholder {
+  font-size: 14px;
+  color: var(--wp--preset--color--red);
+  font-family: var(--wp--preset--font-family--helvetica);
+  font-style: italic;
+}
+
+.willow-location-search #wpsl-search-wrap form .wpsl-search-btn-wrap {
+  margin: 0;
+  z-index: 1;
+}
+
+.willow-location-search
+  #wpsl-search-wrap
+  form
+  .wpsl-search-btn-wrap
+  #wpsl-search-btn {
+  margin: 0;
+  border-radius: 30px;
+  border: 1px solid var(--wp--preset--color--pink);
+  background: var(--wp--preset--color--pink);
+  color: var(--wp--preset--color--white);
+  font-family: var(--wp--preset--font-family--crimson-text);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1;
+  padding: 9px 2rem;
 }
 
 .gm-style-iw {
@@ -273,6 +344,12 @@ footer .mobile-social-list {
   overflow: visible !important;
   padding: 10px !important;
   line-height: 1.2;
+  max-width: 200px !important;
+  width: 100% !important;
+}
+
+.gm-style-iw-d {
+  padding-right: 48px !important;
 }
 
 .gm-style-iw-chr {
@@ -280,9 +357,9 @@ footer .mobile-social-list {
 }
 
 button.gm-ui-hover-effect {
-  position: absolute;
-  top: -42px;
-  right: -48px;
+  position: absolute !important;
+  top: 0;
+  right: 0;
 }
 
 .wpsl-info-window {
@@ -298,4 +375,16 @@ button.gm-ui-hover-effect {
 /* General */
 .font-size-22 {
   font-size: clamp(1rem, calc(0.864rem + 0.682vw), 1.38rem);
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
 }
