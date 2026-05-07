@@ -14,14 +14,6 @@
       "style": "solid",
       "width": "1px",
       "color": "var:preset|color|white"
-    },
-    "spacing": {
-      "padding": {
-        "bottom": "4px",
-        "left": "2rem",
-        "right": "2rem",
-        "top": "4px"
-      }
     }
   }
 }
