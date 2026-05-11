@@ -1,0 +1,12 @@
+li.menu-item:has(a[aria-label='Schedule Service']) {
+  display: none !important;
+}
+
+@media screen and (max-width: 782px) {
+  li.menu-item:has(a[aria-label='Schedule Service']) {
+    display: block !important;
+  }
+  .gutenverse-menu-wrapper li.menu-item a {
+    color: var(--wp--preset--color--e-cv-mbc) !important;
+  }
+}
