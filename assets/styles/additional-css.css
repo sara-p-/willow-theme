@@ -178,6 +178,10 @@ footer .mobile-social-list {
 }
 
 @media screen and (max-width: 782px) {
+  .pricing-slider .cb-wrapper {
+    padding-bottom: 2rem;
+  }
+
   .pricing-card {
     padding-bottom: 4rem !important;
   }
@@ -197,7 +201,7 @@ footer .mobile-social-list {
 
 .testimonials-slider .cb-button-next:after,
 .testimonials-slider .cb-button-prev:after {
-  color: var(--wp--preset--color--white);
+  color: var(--wp--preset--color--light-green);
 }
 
 .testimonials-location-text {
@@ -241,7 +245,6 @@ footer .mobile-social-list {
 }
 
 /* Callout - Style 3 */
-
 .callout-image-desktop {
   display: none;
 }
@@ -260,9 +263,9 @@ footer .mobile-social-list {
 }
 
 /* WP Store Locator */
-/* #wpsl-result-list {
+#wpsl-result-list {
   display: none !important;
-} */
+}
 
 #wpsl-gmap,
 .wpsl-gmap-canvas {
