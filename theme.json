@@ -278,7 +278,7 @@
       "h3": {
         "typography": {
           "fontFamily": "var(--wp--preset--font-family--ar-one-sans)",
-          "fontSize": "clamp(2.19rem, calc(1.960rem + 1.136vw), 2.81rem)",
+          "fontSize": "clamp(2.00rem, calc(1.458rem + 1.806vw), 2.81rem)",
           "fontWeight": "600",
           "lineHeight": "1.2"
         }

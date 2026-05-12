@@ -17,6 +17,11 @@ header:has(> .is-position-sticky) {
 }
 
 /* Navigation */
+
+header .header-hidden-button a {
+  font-size: 13px;
+}
+
 @media (min-width: 782px) {
   header .wp-block-navigation-item {
     padding: 4px 0;
@@ -29,6 +34,16 @@ header:has(> .is-position-sticky) {
 
   header li.wp-block-navigation-link:last-of-type {
     margin-left: -12.5px;
+  }
+
+  header .header-hidden-button {
+    display: none;
+  }
+
+  /* Resize the logo */
+  header .header-logo {
+    width: 100%;
+    max-width: 234px;
   }
 }
 
@@ -46,6 +61,27 @@ header:has(> .is-position-sticky) {
   .wp-block-navigation__responsive-container-content .wp-block-buttons {
     flex-direction: column;
     gap: 1rem;
+  }
+
+  /* tweak the hamburger */
+  nav button[aria-label='Open menu'] {
+    color: var(--wp--preset--color--pink);
+  }
+
+  nav button[aria-label='Open menu'] svg {
+    height: 30px;
+    width: 30px;
+  }
+
+  /* Resize the logo */
+  header .header-logo {
+    width: 100% !important;
+    max-width: 120px !important;
+  }
+
+  /* Resize the logo */
+  header .header-logo img {
+    width: 100%;
   }
 }
 
@@ -159,6 +195,12 @@ footer .mobile-social-list {
 }
 
 /* Pricing Slider */
+@media screen and (max-width: 782px) {
+  .pricing-section {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+  }
+}
 
 .pricing-slider .cb-button-prev,
 .pricing-slider .cb-button-next {
@@ -214,6 +256,12 @@ footer .mobile-social-list {
   align-items: flex-start;
 }
 
+@media screen and (max-width: 782px) {
+  .process-graphic-1 {
+    min-width: 54px;
+  }
+}
+
 /* FAQ Accordion */
 .faq-accordion-header button .wp-block-accordion-heading__toggle-title {
   order: 2;
@@ -242,6 +290,31 @@ footer .mobile-social-list {
 
 .faq-accordion-panel {
   padding-left: 4rem !important;
+}
+
+@media screen and (max-width: 782px) {
+  .faq-content {
+    padding-top: 4rem !important;
+  }
+}
+
+/* Cards Section - Style 2 */
+.card-style-2-mobile-image {
+  display: none;
+}
+
+.card-style-2-desktop-image {
+  display: block;
+}
+
+@media screen and (max-width: 782px) {
+  .card-style-2-mobile-image {
+    display: block;
+  }
+
+  .card-style-2-desktop-image {
+    display: none;
+  }
 }
 
 /* Callout - Style 3 */
@@ -379,6 +452,50 @@ button.gm-ui-hover-effect {
   font-size: 1rem !important;
   font-weight: 600 !important;
   line-height: 1.5 !important;
+}
+
+@media screen and (max-width: 782px) {
+  #wpsl-wrap #wpsl-gmap {
+    height: 600px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wpsl-search.willow-location-search {
+    padding: 0px;
+  }
+}
+
+/* Contact Form 7 */
+.wpcf7 form.wpcf7-form p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.wpcf7 label:has(.form-input) {
+  font-size: 14px;
+  line-height: 2.5;
+}
+
+.wpcf7 .form-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--wp--preset--color--pink);
+  border-radius: 30px;
+  font-size: 1rem;
+}
+
+.wpcf7 input.wpcf7-submit {
+  appearance: none;
+  padding: 4px 4rem;
+  border-radius: 30px;
+  border: none;
+  font-size: 22px;
+  font-family: var(--wp--preset--font-family--crimson-text);
+  color: var(--wp--preset--color--white);
+  background: var(--wp--preset--color--pink);
+  font-weight: 700;
+  cursor: pointer;
 }
 
 /* General */
